@@ -1,0 +1,107 @@
+    
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+text-align: center;
+}
+h2{
+    font: bold 25px MiNuevaFuente2, verdana, sans-serif;  
+}
+#agrupar {
+    width: 700px;
+    margin: 15px auto;
+    text-align: left;
+    }
+#seccion {
+    float: center;
+    text-align: center;
+    width: 640px;
+    margin: 20px;
+    }
+#cabecera {
+    font: bold 20px MiNuevaFuente, verdana, sans-serif;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    border-radius: 20px;
+    text-align: center;
+    background: #D6E4EC;
+    border: 0px solid #999999;
+    padding: 20px;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    border-radius: 20px;
+    }
+
+figure img{
+    width: 200px;
+}
+img{
+    display:block;
+    margin:auto;
+    }
+article {
+    text-align: center;
+    float: center;
+    background: #ffffff;
+    border: 3px solid #12425e;
+    padding: 20px;
+    margin-bottom: 15px;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    border-radius: 20px;
+    }
+    #java {
+        float: center;
+        text-align: left;
+        display: block;
+        margin:auto;
+        }
+        #pie {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #12425e;
+        }
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+          
+          .row {
+            height: 50%;
+            width: 100%;
+            justify-content: center;
+            
+          }
+          
+          #chart_div {
+            display: inline-block;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+
+          }
+          @font-face {
+            font-family: 'MiNuevaFuente';
+            src: url('Chicken\ Quiche.ttf');
+            }
+            @font-face {
+                font-family: 'MiNuevaFuente2';
+                src: url('DK\ Lemon\ Yellow\ Sun.otf');
+                }
+
+.caja{border: #D81515 solid 2px;
+    background: #D81515;
+    width: 100px;
+    margin: 20px; }
+    
+.cajaAzul{border: rgb(19, 226, 36) 2px solid;
+        background:  rgb(19, 226, 36);
+        width: 100px;
+        margin: 20px; }
